@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/07ce7508c3.js" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="logoContainer">
+                <p class="logoText">FLORA</p>
+            </div>
+            <div class="navContainer">
+                <a href="#" class="navText" id="navTextHome">Home</a>
+                <a href="#productPage" class="navText">Product</a>
+            </div>
+            <div class="cartContainer">
+                <div class="cartBox" id="cartBox">
+                    <p class="cartText">Cart</p>
+                    <i class="fa-solid fa-cart-shopping fa-1x"></i>
+                </div>
+                <div class="cartCard" id="cartCard">
+                    <div class="cartTextContainer">
+                        <p class="cartText2">Your Cart</p>
+                        <i class="fa-solid fa-circle-xmark fa-2x" id="exitButton"></i>
+                    </div>
+                    <div class="cartItem">
+                        <img src="plantPic.png" class="cartItemPic">
+                        <p class="cartItemText" id="cartItemText">0 Coffee Plant(s)</p>
+                    </div>
+                    <div class="checkoutButton" id="checkoutButton">
+                        <p class=checkoutText>Checkout Coming Soon!</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="home">
+                <div class="introContainer">
+                    <div class="introLeft">
+                        <div class="leftUpperHalf">
+                            <i class="fa-solid fa-seedling fa-5x"></i>
+                        </div>
+                        <div class="leftLowerHalf">
+                            <i class="fa-solid fa-tree fa-5x"></i>
+                        </div>
+                    </div>
+                    <div class="introMiddle">
+                        <p class="introHeaderText">Serenity in a green experience.</p>
+                        <img src="plantPic.png" class="plantPic">
+                    </div>
+                    <div class="introRight">
+                        <div class="rightUpperHalf">
+                            <i class="fa-solid fa-leaf fa-5x"></i>
+                        </div>
+                        <div class="rightLowerHalf">
+                            <i class="fa-solid fa-spa fa-5x"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="infoContainer">
+                    <div class="infoBox">
+                        <div class="infoBoxHeader">
+                            <p class="infoBoxHeaderText">Free Shipping</p>
+                        </div>
+                        <div class="infoBoxBody">
+                            <p class="infoBoxBodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu turpis egestas pretium aenean.</p>
+                        </div>
+                    </div>
+                    <div class="infoBox2">
+                        <div class="infoBoxHeader">
+                            <p class="infoBoxHeaderText">30 Day Return</p>
+                        </div>
+                        <div class="infoBoxBody">
+                            <p class="infoBoxBodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu turpis egestas pretium aenean.</p>
+                        </div>
+                    </div>
+                    <div class="infoBox">
+                        <div class="infoBoxHeader">
+                            <p class="infoBoxHeaderText">Best Quality</p>
+                        </div>
+                        <div class="infoBoxBody">
+                            <p class="infoBoxBodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu turpis egestas pretium aenean.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="productPage" id="productPage">
+                <div class="productLeftHalf">
+                    <div class="productPlantImage">
+                        <img src="plantPic2.png" class="plantPic2">
+                    </div>
+                </div>
+                <div class="productRightHalf">
+                    <div class="plantNameContainer">
+                        <p class="plantNameText">Coffee Plant</p>
+                    </div>
+                    <div class="plantDescriptionContainer">
+                        <p class="plantDescriptionText">You might be surprised to know the same plant that grows your morning coffee beans is a popular, low-maintenance houseplant! Although it’s unlikely this plant will produce berries inside, its attractive shiny green foliage will liven up any interior space.</p>
+                    </div>
+                    <div class="plantFeatureListContainer">
+                        <ul class="plantFeatureList">
+                            <li class="plantFeatureText">Each plant is unique; size and shape fluctuate by season so all measurements are shown as a range</li>
+                            <li class="plantFeatureText">Small plant measures between 5–10" tall from the soil line to the top of the foliage</li>
+                            <li class="plantFeatureText">Arrives in a nursery grow pot nestled in your planter choice</li>
+                        </ul>
+                    </div>
+                    <div class="addToCartContainer" id="addToCartContainer">
+                        <button class="addToCartButton" id="addToCartButton">Add To Cart</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <a href="https://www.linkedin.com/in/carlos-macario-962ba2222/"><p class="footerText">Designed & Built By Carlos Macario</p></a>
+            <p class="credits">Images & Plant Description From thesill.com</p>
+        </footer>
+    </body>
+</html>
